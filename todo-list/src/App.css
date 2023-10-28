@@ -1,0 +1,50 @@
+.app{
+  height: 100vh;
+}
+.nav{
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  padding: 10px;
+}
+.navbar-content ul{
+  display: flex;
+  margin: 7px;
+}
+.navbar-content ul li{
+  list-style: none;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 2px;
+  transition: transform 250ms linear;
+}
+.navbar-content ul li:hover{
+  color: plum;
+  transform: translateY(-2px);
+}
+.todo{
+  margin: auto;
+}
+.todo div{
+  margin: auto;
+  width:400px;
+  background-color: rgb(169, 146, 146);
+  text-align: center;
+  border-radius: 10px ;
+}
+.todo div h2{
+  padding: 20px;
+  margin: 10px;
+}
+
+.todo div input{
+  border-radius: 5px;
+  height: 1.5rem;
+  width: 300px;
+}
