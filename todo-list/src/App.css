@@ -48,3 +48,31 @@
   height: 1.5rem;
   width: 300px;
 }
+
+
+
+
+#spinner   {  
+           
+  animation: spin 1s linear infinite;
+  color: red;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.inline{
+display: flex;
+}
+.center{
+flex:left;
+}
+.spinner i{
+margin-top: 10px;
+margin-left: 50px;
+
+
+}

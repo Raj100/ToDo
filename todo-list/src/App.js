@@ -9,6 +9,7 @@ function App() {
     <div className="app">
       <Navbar/>
       <Todo/>
+      <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
       </div>
     </>
   );
